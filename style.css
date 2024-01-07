@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Work Sans", sans-serif;
 }
 h2 {
   font-size: 45px;
@@ -8,7 +9,41 @@ h2 {
 h2 {
   font-size: 25px;
 }
+#container1{
+  background-image: url(src/banner1.png);
+  background-repeat: no-repeat;
+  width: 1600px;
+  height: 808px;
+  margin: auto;
+  margin-bottom: 100px;
+  position: relative;
+}
 
+#container1 #inner_container{
+  position: absolute;
+  text-align: right;
+  width: 525px;
+  top: 216px;
+  left: 845px;
+}
+
+#container1 h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+#container1 p{
+  margin-bottom: 30px;
+}
+
+#container1 button{
+  background-color: #f15b22;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+  padding: 21px 25px 20px 26px;
+}
 #container2 {
   display: flex;
   gap: 100px;
@@ -93,7 +128,7 @@ footer {
   display: flex;
   background-color: #151414;
   color: white;
-  font-family: "Work Sans", sans-serif;
+
 }
 
 footer div {
